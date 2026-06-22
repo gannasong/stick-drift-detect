@@ -1,0 +1,39 @@
+{
+  "name": "stick-drift-detect",
+  "version": "1.0.0",
+  "description": "Pure, zero-dependency stick-drift verdict logic for the Gamepad API — feed raw (x,y) samples, get a PASS / DRIFTING / FAIL verdict. The verdict engine behind controllertester.co.",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "keywords": [
+    "gamepad",
+    "controller",
+    "gamepad-api",
+    "stick-drift",
+    "joystick",
+    "drift",
+    "deadzone",
+    "analog-stick",
+    "game-controller",
+    "controller-test"
+  ],
+  "homepage": "https://controllertester.co",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gannasong/stick-drift-detect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gannasong/stick-drift-detect/issues"
+  },
+  "author": "controllertester.co",
+  "license": "MIT",
+  "sideEffects": false
+}
